@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Fuucodi0X/releaseWorkflow2/compare/v1.1.0...v1.2.0) (2025-04-02)
+
+
+### Features
+
+* testemonial ([6390011](https://github.com/Fuucodi0X/releaseWorkflow2/commit/6390011c33b23aec96cfde3f4469500af4bd1856))
+
 # [1.1.0](https://github.com/Fuucodi0X/releaseWorkflow2/compare/v1.0.0...v1.1.0) (2025-04-02)
 
 
