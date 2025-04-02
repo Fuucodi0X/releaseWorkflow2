@@ -48,6 +48,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
-          npx semantic-release --debug \
+          # Allow recreation of tags for history rewrites
+          npx semantic-release --force --debug \
             --tag-format 'v${version}' \
             --no-ci
