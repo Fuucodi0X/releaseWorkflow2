@@ -1,5 +1,11 @@
 {
   "branches": ["main"],
+  "verifyConditions": [
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "git tag -d $(git describe --tags --abbrev=0) || true && git push origin :$(git describe --tags --abbrev=0) || true"
+    }
+  ],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits",
